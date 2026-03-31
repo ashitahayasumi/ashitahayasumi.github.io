@@ -1,47 +1,57 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #111;
-    color: #fff;
+    background-color: #f9f9f9; /* 明るい背景 */
+    color: #333;
 }
 
 header {
-    background: #000;
+    background: linear-gradient(135deg, #a0e7e5, #b4f8c8); /* パステルグラデ */
     text-align: center;
-    padding: 30px;
+    padding: 40px;
 }
 
 header h1 {
     font-size: 40px;
     margin: 0;
+    color: #333;
+}
+
+header p {
+    color: #555;
 }
 
 nav {
-    background: #222;
-    padding: 10px;
+    background: #ffffff;
+    padding: 15px;
     text-align: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 nav a {
-    color: #fff;
+    color: #333;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #00ffff;
+    color: #ff7eb9; /* ピンクアクセント */
 }
 
 section {
     padding: 40px;
     max-width: 800px;
-    margin: auto;
+    margin: 30px auto;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 h2 {
-    border-bottom: 2px solid #00ffff;
+    border-bottom: 2px solid #a0e7e5;
     padding-bottom: 10px;
+    color: #333;
 }
 
 ul {
@@ -50,25 +60,30 @@ ul {
 }
 
 ul li {
-    background: #222;
+    background: #f1fdfc;
     margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 12px;
+    border-radius: 10px;
 }
 
 iframe {
     width: 100%;
     max-width: 100%;
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 a {
-    color: #00ffff;
+    color: #00bcd4;
+}
+
+a:hover {
+    color: #ff7eb9;
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: #000;
+    background: #a0e7e5;
     margin-top: 40px;
+    color: #333;
 }
