@@ -1,130 +1,92 @@
 body {
     margin: 0;
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background: linear-gradient(#ffffff, #eafcff);
-    color: #333;
-}
-
-/* ===== ヘッダー ===== */
-header {
-    background: linear-gradient(135deg, #a0e7e5, #b4f8c8);
-    text-align: center;
-    padding: 50px 20px;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
 }
 
 header {
+    background: #000;
     text-align: center;
+    padding: 30px;
 }
 
-header img {
-    width: 60%;
-    max-width: 320px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
+header h1 {
+    font-size: 40px;
+    margin: 0;
 }
 
-header p {
-    color: #555;
-    margin-top: 10px;
-}
-
-/* ===== ナビ ===== */
 nav {
-    background: #ffffff;
-    padding: 15px;
+    background: #222;
+    padding: 10px;
     text-align: center;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    position: sticky;
-    top: 0;
 }
 
 nav a {
-    color: #333;
+    color: #fff;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
 }
 
 nav a:hover {
-    color: #ff7eb9;
+    color: #00ffff;
 }
 
-/* ===== セクション ===== */
 section {
-    padding: 40px 25px;
+    padding: 40px;
     max-width: 800px;
-    margin: 30px auto;
-    background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    margin: auto;
 }
 
-/* ===== 見出し ===== */
 h2 {
-    border-bottom: 3px solid #a0e7e5;
+    border-bottom: 2px solid #00ffff;
     padding-bottom: 10px;
-    margin-bottom: 20px;
 }
 
-/* ===== メンバー ===== */
 ul {
     list-style: none;
     padding: 0;
 }
 
 ul li {
-    background: #f1fdfc;
+    background: #222;
     margin: 10px 0;
-    padding: 12px;
-    border-radius: 10px;
-    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
 }
 
-ul li:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 5px 10px rgba(0,0,0,0.08);
-}
-
-/* ===== 動画・カレンダー ===== */
 iframe {
     width: 100%;
-    border-radius: 15px;
-    margin-top: 15px;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
-/* ===== リンク ===== */
 a {
-    color: #00bcd4;
-    transition: 0.3s;
+    color: #00ffff;
 }
 
-a:hover {
-    color: #ff7eb9;
-}
-
-/* ===== フッター ===== */
 footer {
     text-align: center;
     padding: 20px;
-    background: #a0e7e5;
+    background: #000;
     margin-top: 40px;
 }
+.youtube-box {
+    text-align: center;
+    margin: 30px 0;
+}
 
-/* ===== スマホ対応 ===== */
-@media (max-width: 600px) {
-    header h1 img {
-        width: 80%;
-    }
+.youtube-box a {
+    display: inline-block;
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
 
-    section {
-        margin: 20px;
-        padding: 25px;
-    }
-
-    nav a {
-        display: inline-block;
-        margin: 5px 10px;
-    }
+.youtube-box a:hover {
+    background-color: #cc0000;
 }
